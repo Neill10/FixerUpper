@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>How Tos       
+        <!--Remove line break-->
+    </title>
+</head>
+<body>
+    <!--h1 closing tag-->
+    <h1>Skills<h1>
+    <main>
+        <div class="container">
+            <h2>Soft Skills</h2>
+                <article>
+                    <div>
+                        <video controls>
+                            <source src="/HTML_WEBSITE/videos/collab.mp4">
+                        </video>
+                    </div>
+                    <!--Missing > in <div class="SoftSkills">-->
+                    <div class="SoftSkills"
+                        <h3>Some of my Soft Skills include:</h3>
+                        <ul>
+                            <li>Teamwork</li>
+                            <!--Missing <li> tag-->
+                            Time Management</li>
+                            <li>Flexibility</li>
+                        </ul>
+                    </div>
+                    <!--Missing > in </article>-->
+                </article
+        <!-- Needs to indent this whole div-->
+        <div>
+            <h2>Hard Skills</h2>
+            <article>
+                <div class="HardSkills">
+                    <h3>My Hard Skills include:</h3>
+                    <table>
+                        <tr>
+                            <td>Proficiency With Java</td>
+                            <td>Knowledgeable about applications of Blockchain</td>
+                            <td>Good at Chess</td>
+                        </tr>
+                        <!--remove </table indent-->
+                        </table>
+                </div>
+            </article>
+            <article>
+                <!--Misspelled <div> tag-->
+                <divv>
+                    <h3>Which hard skills do you share with me?</h3>
+                    <form>
+                        
+                        <!--Missing value-->
+                        <input type="checkbox" id="skill1">
+                        <label for="skill1"> Java</label><br>
+                        <input type="checkbox" id="skill2" value="Chess">
+                        <label for="skill2"> Chess</label><br>
+                        <input type="checkbox" id="skill3" value="Blockchain">
+                        <!--Missing for="skill3 in <label>"-->
+                        <label> Blockchain </label>
+                    </form>
+                    <!--Chang <div> to a closing div-->
+                <div>
+            </article>
+        </div>
+        <!--Missing a closing <div>-->
+    <!--Missing closing tag for main-->>
+    
+</body>
+<!--Stray Footer Tag-->
+<footer>
+    <!--Missing href-->
+    <a class="footer" >ABOUT ME</a>
+    <a class="footer" href="favorites.html">HOBBIES</a>
+    <!--Change <a> to a closing tag-->
+    <a class="footer" href="spots.html">SPOTS IN NYC<a>
+</footer>
+</html>

@@ -5,9 +5,11 @@
     <title>Part One</title>
   </head>
   <body>
-<h3> Products Page</hh3><div>
+    <!--extra h in </h3>-->
+<h3> Products Page</h3><div>
   <ul class = "products_list">
-  <li <div class = "product">
+  <!--Missing > in the <li> start tag-->
+  <li> <div class = "product">
               <img alt = "product_one" src = "product_image1"></img>
                   <h3>Product Name</h3><p>Product Description</p>
                 </div>
@@ -19,11 +21,14 @@
         </li>  <li>
           <div class = "product">
 <img alt = "product_two" src = "product_image2"></img>
-<h3>Product Name</h3 <p>Product Description</p>
+<!--Missing > in </h3>-->
+<h3>Product Name</h3> <p>Product Description</p>
           </div>
 </li>
 <ul>
       </div>
-</div>
+  <!--Extra unnecessary </div> tag-->
   </body>
 <html>
+
+<!--This file was much harder to fix than part B. It was hard to determine whether a closing div belong or not.-->
